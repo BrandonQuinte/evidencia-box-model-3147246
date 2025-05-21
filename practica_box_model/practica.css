@@ -1,0 +1,97 @@
+/*
+Box model
+1. la etiqueta debe tener:
+    - contenido
+    - width and height
+2. la etiqueta debe tener display:block
+    Implica:
+    Ocupar todo el ancho
+*/
+.box{
+    height: 200px;
+}
+
+#caja1{
+    display: block;
+    /*
+    border: necesita
+        - estilo de borde
+        - ancho de borde
+        - color de borde
+    */
+    border: rgba(55, 55, 55, 0.5) 3px dashed;
+    margin: 10px 200px 100px 50px;
+}
+
+.box1{
+    background-color: salmon;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#caja2{
+    display: block;
+    width: 300px;
+    border-top: #d4c889 ridge 10px;
+    border-left: #b7d4be inset 20px;
+    border-bottom: double rgb(122, 105, 88) 20px;
+    margin: 50px;
+}
+.box2{
+    background-color: rgba(127, 127, 127, 0.5);
+    padding: 30px 84px 10px 20px;
+    box-sizing: border-box;
+}
+
+#caja3{
+    display: block;
+    width: 400px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 100px;
+    /*
+    border-top: #8a7613 ridge 10px;
+    border-left: #1bc944 inset 20px;
+    border-bottom: double rgb(121, 69, 17) 20px;
+    border-right: red 30px outset ;
+    */
+
+}
+
+.box3{
+    background-color: #e94323;
+    padding: 50px 40px 10px;
+    border-style: outset ;
+    border-width: 50px;
+    border-color: gainsboro;
+    box-sizing: border-box;
+}
+
+#caja4{
+    display: block;
+    width: 400px;
+    margin: 10px;
+}
+
+.box4{
+    background-color: #6c068b;
+    padding: 50px 40px 10px;
+    border-left-style: outset ;
+    border-right-style: dashed;
+    border-bottom-style: hidden;
+    border-top-style: inset;
+    border-left-width: 5px;
+    border-right-width: 15px;
+    border-bottom-width: 20px;
+    border-top-width: 10px;    
+    border-left-color: red;
+    border-right-color: blue;
+    border-bottom-color: peru;
+    border-top-color: green;
+    box-sizing: border-box;
+
+}
